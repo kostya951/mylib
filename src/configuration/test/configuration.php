@@ -1,0 +1,36 @@
+<?php
+	return[
+	'locations'=>[
+		'input'=>[
+			'directory'=>[
+				'input1'=>[
+					'path'=>'C:\backups',
+				],
+				'input2'=>[
+					'path'=>'D:\kostya\backups',
+				],
+			],
+			'cloud'=>[
+				'mega'=>[
+					'url'=>'url',
+				],
+				'google'=>[
+					'url'=>'url',
+				],
+			],
+		],
+		'output'=>[
+			'directory'=>[
+				'the-brain'=>[
+					'path'=>'D:\kostya\Desktop\TheBrainBackups',
+					'inputs'=>[
+						'0'=>'input1',
+						'1'=>'input2',
+						'2'=>'mega',
+						'3'=>'google',
+					],
+				],
+			],
+		],
+	],
+];
