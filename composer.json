@@ -1,6 +1,6 @@
 {
     "name": "kostya/configuration",
-    "version": "1.0",
+    "version": "1.01",
     "description": "Common classes to configure my programs",
     "type": "library",
     "authors": [
