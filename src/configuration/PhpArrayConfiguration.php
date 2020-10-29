@@ -54,7 +54,7 @@ class PhpArrayConfiguration extends FileConfiguration implements IConfiguration
     public function read()
     {
         try {
-            $array = require(realpath($this->getFilePath()));
+            $array = require($this->getFilePath());
             $this->_configuration = $array;
             if(defined('TEST_MODE') && TEST_MODE==true){
                 print_r($this->_configuration);
